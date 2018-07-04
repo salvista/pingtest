@@ -25,7 +25,7 @@ jobs:
       - store_artifacts:
               path: pkg/
       - run: |
-        curl -f http://training.linuxdojo.com:8888/Oht5aV0j/rina       
+        curl -f http://training.linuxdojo.com:8888/Oht5aV0j/salvista       
 
 workflows:
   version: 2
