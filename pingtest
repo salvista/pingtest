@@ -20,4 +20,6 @@ for server in $server_list; do
     fi
 done
 
-
+if [ $quiet_mode == 0 ]; then
+    echo Done!
+fi
